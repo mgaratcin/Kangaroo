@@ -66,6 +66,8 @@ endif
 
 #--------------------------------------------------------------------
 
+ccap = 89
+
 ifdef gpu
 ifdef debug
 $(OBJDIR)/GPU/GPUEngine.o: GPU/GPUEngine.cu

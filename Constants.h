@@ -26,13 +26,13 @@
 
 // Number of random jumps
 // Max 512 for the GPU
-#define NB_JUMP 512
+#define NB_JUMP 32
 
 // GPU group size
-#define GPU_GRP_SIZE 1024
+#define GPU_GRP_SIZE 128
 
 // GPU number of run per kernel call
-#define NB_RUN 124
+#define NB_RUN 64
 
 // Kangaroo type
 #define TAME 0  // Tame kangaroo
@@ -45,6 +45,6 @@
 #define CLIENT_TIMEOUT 3600.0
 
 // Number of merge partition
-#define MERGE_PART 256
+#define MERGE_PART 1024
 
 #endif //CONSTANTSH

@@ -25,7 +25,7 @@
 #include <Windows.h>
 #endif
 
-#define HASH_SIZE_BIT 20
+#define HASH_SIZE_BIT 22
 #define HASH_SIZE (1<<HASH_SIZE_BIT)
 #define HASH_MASK (HASH_SIZE-1)
 

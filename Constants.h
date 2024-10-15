@@ -45,6 +45,6 @@
 #define CLIENT_TIMEOUT 3600.0
 
 // Number of merge partition
-#define MERGE_PART 1024
+#define MERGE_PART 64
 
 #endif //CONSTANTSH
